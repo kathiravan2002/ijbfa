@@ -1,5 +1,4 @@
 import React from 'react'
-import cloud from '/assets/cloud.png'
 import check from '/assets/Block.png'
 import dash from '/assets/books.jpg'
 
@@ -11,20 +10,21 @@ function Peerreview() {
             <div className="text-justify max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2 ">
                 <div className="w-full">
                     <div className='  lg:py-5 py-3 border-b-2 border-[#1687A7]  '>
-                        <h1 className="text-xl  lg:text-xl  mb-3 lg:mb-4 text-[#1687A7]  poppins-bold">
-                            Peer Review Process            </h1>
-                        <div className='lg:flex justify-evenly gap-2'>
+                       
+                        <div className='lg:flex justify-evenly items-center gap-5'>
                             <div>
-
-                                <div className='lg:hidden block'>
-                                    <img src={dash} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3' />
-                                </div>
+                            <h1 className="text-xl  lg:text-xl  mb-3 lg:mb-4 text-[#1687A7]  poppins-bold">
+                            Peer Review Process
+                        </h1>
+                               
+                                    <img src={dash} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto  lg:hidden block  border mb-3' />
+                                
                                 <p className="  text-black mb-3 lg:mb-4   poppins-regular max-w-[1094px] ">
                                     The International Journal of Blockchain and FinTech Applications follows a rigorous double-blind peer review process to ensure the quality and integrity of published research. Each submission is reviewed by independent experts in the field, assessing originality, relevance, methodology, and contribution to the domain. Authors may be required to revise their manuscripts based on reviewer feedback before final acceptance. The process ensures fairness, transparency, and high academic standards. Only high-quality research that meets the journal’s ethical and scholarly criteria is accepted for publication.
                                 </p>
                             </div>
-                            <div className='hidden lg:block '>
-                                <img src={dash} alt="image" className=' min-w-[150px] max-w-auto lg:h-auto xl:h-[144px] ' />
+                            <div className='hidden lg:block shadow-lg border'>
+                                <img src={dash} alt="image" className=' max-w-[150px] max-w-auto  ' />
                             </div>
                         </div>
 

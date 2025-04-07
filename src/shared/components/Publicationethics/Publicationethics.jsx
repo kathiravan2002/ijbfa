@@ -1,5 +1,4 @@
 import React from 'react'
-import cloud from '/assets/cloud.png'
 import check from '/assets/Block.png'
 import dash from '/assets/books.jpg'
 
@@ -12,20 +11,21 @@ function Publicationethics() {
             <div className="text-justify max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2 ">
                 <div className="w-full">
                     <div className='  lg:py-5 py-3 border-b-2 border-[#1687A7] '>
-                        <h1 className="text-xl  lg:text-xl  mb-3 lg:mb-4 text-[#1687A7]  poppins-bold">
-                            Publications Ethics           </h1>
-                        <div className='lg:flex justify-evenly gap-2'>
-                            <div>
 
-                                <div className='lg:hidden block'>
-                                    <img src={dash} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3' />
-                                </div>
+                        <div className='lg:flex justify-evenly items-center gap-5'>
+                            <div>
+                                <h1 className="text-xl  lg:text-xl  mb-3 lg:mb-4 text-[#1687A7]  poppins-bold">
+                                    Publications Ethics
+                                </h1>
+
+                                <img src={dash} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3 lg:hidden block border' />
+
                                 <p className="  text-black mb-3 lg:mb-4   poppins-regular max-w-[1094px] ">
                                     The International Journal of Blockchain and FinTech Applications is committed to maintaining the highest ethical standards in publishing. Authors must ensure their submissions are original, free from plagiarism, and not under consideration elsewhere. The journal follows a strict peer-review process, ensuring fairness, confidentiality, and integrity. Reviewers and editors are expected to provide unbiased evaluations while maintaining transparency in the publication process. Any form of research misconduct, including data fabrication or plagiarism, will result in rejection or retraction of the article.
                                 </p>
                             </div>
-                            <div className='hidden lg:block '>
-                                <img src={dash} alt="image" className=' min-w-[150px] max-w-auto lg:h-auto xl:h-[144px] ' />
+                            <div className='hidden lg:block shadow-lg border'>
+                                <img src={dash} alt="image" className=' max-w-[150px] max-w-auto ' />
                             </div>
                         </div>
 

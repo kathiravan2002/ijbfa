@@ -3,7 +3,7 @@ import { Link, useLocation, useParams, useSearchParams } from "react-router-dom"
 import { FaChevronDown, FaUpload } from "react-icons/fa";
 import NavItems from "./NavItems";
 import { GiHamburgerMenu } from "react-icons/gi";
-import Logo from '/assets/IJCCBD.png'
+import Logo from '/assets/IJBFA.png'
 
 const Header = () => {
   const menuRef = useRef(null);
@@ -71,13 +71,13 @@ const Header = () => {
                   <div className=" bg-white 2xl:w-[300px] xl:w-[300px] lg:w-[250px] md:w-[230px] w-[200px] rounded-tr-[150px] h-[81px] lg:border-none border border-b-[#1687A7]" >
                     
                     <div className="flex justify-center items-center h-full">
-                    {/* <img
+                    <img
                       src={Logo}
                       loading='lazy'
                       alt="Website Logo"
                       className=" lg:min-w-40 lg:w-48 min-w-28 w-36 select-none "
-                    /> */}
-                    <h2 className="namdhinggo-bold text-4xl text-[#1687A7]">IJBFA</h2>
+                    />
+                   
                     </div>
                   </div>
                 </Link>
@@ -122,7 +122,7 @@ const Header = () => {
         >
 
           <div className="flex lg:justify-end lg:items-end justify-center items-center lg:px-60 py-2">
-            <Link to="" target="_blank" rel="noopener noreferrer">
+            <Link to="https://ijbfa.com/ijbfa/index.php/ijfba/about/submissions" target="_blank" rel="noopener noreferrer">
             <button className="text-white poppins-regular bg-[#1687A7] rounded-lg lg:p-1 lg:px-4   py-1 px-2">
              <div className="flex justify-between gap-2 "> Submit Paper <FaUpload className="mt-1" /></div>
             </button>

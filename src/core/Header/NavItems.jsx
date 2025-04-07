@@ -117,7 +117,7 @@ const NavItems = ({ ToggleMenu, MenuOpen, isActive, }) => {
           </ul>
         </div>
         <div className="text-center px-4 lg:px-0 mt-9">
-          <Link to="" target="_blank" rel="noopener noreferrer">
+          <Link to="https://ijbfa.com/ijbfa/index.php/ijfba/about/submissions" target="_blank" rel="noopener noreferrer">
             <button className="bg-[#D3E0EA] text-[#1687A7] px-4 py-2 rounded-lg transition duration-300 poppins-bold" >
 
               <div className="flex justify-between gap-2 "> Submit Paper <FaUpload className="mt-1" /></div>

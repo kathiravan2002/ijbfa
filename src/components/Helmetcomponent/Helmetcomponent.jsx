@@ -4,19 +4,20 @@ const Helmetcomponent = ({ title }) => {
   return (
     <Helmet>
     <title>{title}</title>
-    {/* <meta name="keywords" content="IJCCBD, International Journal of Cloud Computing and Big Data , Cloud Optimization, Hybrid Cloud, Public Cloud,Private Cloud,Edge Computing, Data Processing,  Data Storage,Cloud Infrastructure, Big Data,Cloud Automation,Cloud Computing" />
-    <meta name="description" content="International Journal of Cloud Computing and Big Data publishes cutting-edge research on cloud technologies, big data analytics, security, and innovations." />
-    <meta name="author" content="IJCCBD Editorial Team" />
+    <meta name="keywords" content="IJBFA, International Journal of Blockchain and FinTech Applications  ,Blockchain Technology, Digital Banking, Tokenization,Digital Payments,Cryptocurrency ,Web3 and Finance ,Open Banking ,Blockchain for Banking ,Cloud Computing in FinTech,Machine Learning in Blockchain,RegTech,Smart Contract Security,Initial Coin Offerings,Blockchain Scalability,Crypto Regulations ,Blockchain Technology ,FinTech" />
+    <meta name="description" content="IJBFA publishes cutting-edge research on blockchain technology, digital finance, and security, advancing innovation in FinTech and decentralized systems." />
+    <meta name="author" content="IJBFA Editorial Team" />
     <meta name="robots" content="index, follow" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="International Journal of Cloud Computing and Big Data(IJCCBD)" />
-    <meta property="og:description" content="International Journal of Cloud Computing and Big Data publishes cutting-edge research on cloud technologies, big data analytics, security, and innovations." />
-    <meta property="og:url" content="https://www.ijccbd.com/" />
-    <meta property="og:image" content="https://ijccbd.com/assets/IJCCBD.png" />
+    <meta property="og:title" content="International Journal of Blockchain and FinTech Applications" />
+    <meta property="og:description" content="IJBFA publishes cutting-edge research on blockchain technology, digital finance, and security, advancing innovation in FinTech and decentralized systems." />
+    <meta property="og:url" content="https://www.ijbfa.com/" />
+    <meta property="og:image" content="https://ijbfa.com/assets/IJBFA.png" />
 
-    <link rel="icon" type="image/svg+xml" href="/assets/Fav.png" />
-    <link rel="canonical" href="https://www.ijccbd.com/" /> */}
+    <link rel="canonical" href="https://www.ijbfa.com/" />
+    <link rel="icon" type="image/png" href="https://www.ijbfa.com/assets/Fav.png" />
+
   </Helmet>
   );
 };

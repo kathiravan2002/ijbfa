@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from "/assets/ojs_brand.jpg"; 
 import { Link } from 'react-router-dom';
-import Logo from '/assets/IJCCBDw.png'
+import Logo from '/assets/IJBFAw.png'
 
 
 const Footer = () => {
@@ -23,9 +23,8 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 relative">
           <div>         
-             {/* <img src={Logo} alt="logo" width="150px" height="150px" className=" mt-2 mb-3"/> */}
-            <h2 className='poppins-extrabold mt-2 mb-3 text-xl'>IJBFA</h2>
-
+             <img src={Logo} alt="logo" width="150px" height="150px" className=" mt-2 lg:mt-6 mb-3"/>
+            
             <div className="flex items-center mb-2">
               <svg
                 className="w-4 h-4 sm:w-5 sm:h-5 mr-2"
@@ -41,7 +40,7 @@ const Footer = () => {
                   d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                 ></path>
               </svg>
-              <a href="mailto:editor@ijccbd.com" className="hover:underline text-sm sm:text-base poppins-regular">
+              <a href="mailto:editor@ijbfa.com" className="hover:underline text-sm sm:text-base poppins-regular">
                 editor@ijbfa.com
               </a>
             </div>
@@ -60,7 +59,7 @@ const Footer = () => {
                   d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
                 ></path>
               </svg>
-              <a href="http://www.ijccbd.com" className="hover:underline text-sm sm:text-base poppins-regular">
+              <a href="http://www.ijbfa.com" className="hover:underline text-sm sm:text-base poppins-regular">
                 www.ijbfa.com
               </a>
             </div>

@@ -13,15 +13,13 @@ const Home = ({navigate,researchDomains}) => {
         <main className="w-full text-justify ">
           <section className="w-full">
             <div className='  lg:py-5 py-3 border-b-2 border-[#1687A7]  '>
-            <h1 className="text-xl  lg:text-xl  mb-3 lg:mb-4 text-[#1687A7]  poppins-bold">
+            
+              <div className='lg:flex justify-evenly items-center gap-5'>
+                <div>
+                <h1 className="text-xl  lg:text-xl  mb-3 lg:mb-4 text-[#1687A7]  poppins-bold">
                   Welcome to IJBFA
                   </h1>
-              <div className='lg:flex justify-evenly gap-2'>
-                <div>
-                 
-                  <div className='lg:hidden block'>
-                    <img src={dash} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3' />
-                  </div>
+                    <img src={dash} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3 lg:hidden block border' />
                   <p className="  text-black mb-3 lg:mb-4   poppins-regular max-w-[1094px] ">
                     <span className=" poppins-semibold ">
                     The International Journal of Blockchain and FinTech Applications(IJBFA)
@@ -29,8 +27,8 @@ const Home = ({navigate,researchDomains}) => {
                     is a peer-reviewed journal focused on the latest advancements in blockchain technology and financial technology (FinTech). It provides a platform for researchers and industry experts to explore innovations in digital payments, smart contracts, decentralized finance, and financial security. The journal publishes high-quality research, case studies, and technical developments to bridge the gap between academia and industry. It aims to foster collaboration and drive the future of digital finance through cutting-edge research and practical applications.
                   </p>
                 </div>
-                <div className='hidden lg:block '>
-                  <img src={dash} alt="image" className=' min-w-[150px] max-w-auto lg:h-auto xl:h-[144px] ' />
+                <div className='hidden lg:block shadow-lg border'>
+                  <img src={dash} alt="image" className=' max-w-[150px] max-w-auto  ' />
                 </div>
               </div>
 

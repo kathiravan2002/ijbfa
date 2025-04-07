@@ -10,20 +10,19 @@ const Plagiarism = () => {
             <div className="text-justify max-w-[90rem] mx-auto lg:pr-2 pr-2 lg:p-0 p-2 ">
                 <div className="w-full">
                     <div className='  lg:py-5 py-3 border-b-2 border-[#1687A7] '>
-                        <h1 className="text-xl  lg:text-xl  mb-3 lg:mb-4 text-[#1687A7]  poppins-bold">
-                        Plagiarism  Policy           </h1>
-                        <div className='lg:flex justify-evenly gap-2'>
-                            <div>
 
-                                <div className='lg:hidden block'>
-                                    <img src={dash} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3' />
-                                </div>
+                        <div className='lg:flex justify-evenly items center gap-5'>
+                            <div>
+                                <h1 className="text-xl  lg:text-xl  mb-3 lg:mb-4 text-[#1687A7]  poppins-bold">
+                                    Plagiarism  Policy
+                                </h1>
+                                <img src={dash} alt="image" className='min-w-[200px] max-w-[250px] mx-auto w-full h-auto mb-3 lg:hidden block border' />
                                 <p className="  text-black mb-3 lg:mb-4   poppins-regular max-w-[1094px] ">
-                                The International Journal of Blockchain and FinTech Applications maintains a strict plagiarism policy to uphold research integrity and originality. All submitted manuscripts are screened using plagiarism detection tools to ensure they contain no copied or improperly cited content. Any submission found to have significant plagiarism, including self-plagiarism or duplicate publication, will be rejected immediately. Authors must properly credit all sources and ensure their work is original. Violations of this policy may result in blacklisting from future submissions.
+                                    The International Journal of Blockchain and FinTech Applications maintains a strict plagiarism policy to uphold research integrity and originality. All submitted manuscripts are screened using plagiarism detection tools to ensure they contain no copied or improperly cited content. Any submission found to have significant plagiarism, including self-plagiarism or duplicate publication, will be rejected immediately. Authors must properly credit all sources and ensure their work is original. Violations of this policy may result in blacklisting from future submissions.
                                 </p>
                             </div>
-                            <div className='hidden lg:block '>
-                                <img src={dash} alt="image" className=' min-w-[150px] max-w-auto lg:h-auto xl:h-[144px] ' />
+                            <div className='hidden lg:block shadow-lg border'>
+                                <img src={dash} alt="image" className=' max-w-[150px] max-w-auto' />
                             </div>
                         </div>
 
@@ -52,7 +51,7 @@ const Plagiarism = () => {
 
                 <div className='bg-[#D3E0EA] mt-4 rounded-lg p-4'>
                     <h2 className='text-[#1687A7] poppins-bold text-xl text-center'>
-                    Detection and Consequences
+                        Detection and Consequences
                     </h2>
                     <div>
                         <div className='flex items-start  mt-4 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '> All submitted manuscripts are screened using advanced plagiarism detection software to identify any similarities with existing published work. If plagiarism is detected, the manuscript will be rejected immediately.</p></div>
