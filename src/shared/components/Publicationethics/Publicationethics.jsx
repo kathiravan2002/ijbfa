@@ -54,7 +54,7 @@ function Publicationethics() {
                         Ethical Guidelines
                     </h2>
                     <div>
-                        <h2 className='text-[#1687A7] poppins-bold mt-2 text-[20px] '>Open Acess Policy</h2>
+                        <h2 className='text-[#1687A7] poppins-bold mt-2 text-[20px] '>Open Access Policy</h2>
                         <div className='flex items-start  mt-4 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>The International Journal of Blockchain and FinTech Applications follows an open-access policy, ensuring that all published research is freely accessible to a global audience. </p></div>
                         <div className='flex items-start  mt-4 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>This allows researchers, academicians, and industry professionals to access, share, and build upon published work without restrictions. </p></div>
                         <div className='flex items-start  mt-4 gap-2'><img src={check} alt="checkmark" className='w-[26px] h-[20px]' /><p className='poppins-regular '>By promoting knowledge dissemination, the journal supports innovation and collaboration in blockchain and FinTech research. </p></div>
